@@ -1,8 +1,8 @@
 /* Dataset Interfaces */
 /* https://rdf.js.org/dataset-spec/ */
 
-import { Quad, BaseQuad, Term } from './data-model';
-import { Stream } from './stream';
+import { Quad, BaseQuad, Term } from './data_model.ts';
+import { Stream } from './stream.ts';
 
 export interface DatasetCore<OutQuad extends BaseQuad = Quad, InQuad extends BaseQuad = OutQuad> {
     /**

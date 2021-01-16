@@ -1,10 +1,10 @@
 /* Stream Interfaces */
 /* https://rdf.js.org/stream-spec/ */
 
-import * as stream from "stream";
-import { EventEmitter } from "events";
+import * as stream from "https://deno.land/std@0.83.0/node/stream.ts";
+import { EventEmitter } from "https://deno.land/std@0.83.0/node/events.ts";
 
-import { BaseQuad, Quad, Term } from './data-model';
+import { BaseQuad, Quad, Term } from './data_model.ts';
 
 /**
  * A quad stream.
